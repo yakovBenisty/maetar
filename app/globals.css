@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+body { @apply bg-bg text-text; }
+
+.card { @apply bg-card border border-border rounded-xl p-4; }
+.input { @apply bg-surface border border-border rounded-md px-3 py-2 text-text w-full; }
+.btn { @apply bg-blue text-white px-4 py-2 rounded-md hover:opacity-90 transition; }
+.btn-outline { @apply border border-border px-4 py-2 rounded-md bg-surface hover:bg-card transition; }
+.table { @apply w-full text-sm; }
+.table th { @apply text-right text-muted border-b border-border p-2; }
+.table td { @apply border-b border-border p-2; }
